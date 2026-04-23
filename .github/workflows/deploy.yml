@@ -26,7 +26,7 @@ jobs:
       run: |
         gcloud functions deploy sol-savage-harvester \
           --gen2 \
-          --runtime nodejs20 \
+          --runtime nodejs22 \
           --region us-central1 \
           --trigger-http \
           --allow-unauthenticated \
