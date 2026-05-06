@@ -1,40 +1,9 @@
-# --- PRIVATE ENTERPRISE DATA (Managed by Rclone/GDrive) ---
-# Ignore sibling data nodes
-../01_receiving/
-../ledger/
-../483_hardened_assets/
-
-# Ignore local data artifacts
-*.csv
-*.xlsx
-*.jpg
-*.jpeg
-*.png
-*.json
-!constitution_payload.json
-!package.json
-
-# --- SECURITY & SECRETS (CTO PROTECOL) ---
-# Ignore environment variables and local vaults
+.clasp.json
+.clasprc.json
+node_modules/
 .env
 *.env
-*_vault
-.gemini_vault
-.github_vault
-credentials/
-*.key
-
-# --- SYSTEM & IDE JUNK ---
-# Python & Node artifacts
-__pycache__/
-*.py[cod]
-node_modules/
-.npm/
-
-# Mobile/Android system artifacts
-.acode/
-.vscode/
-.DS_Store
-storage/
-logs/
-*.log
+*.csv
+*.json
+!appsscript.json
+!package.json
