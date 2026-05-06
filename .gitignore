@@ -1,6 +1,6 @@
 .clasp.json
 .clasprc.json
-config/.clasp.json
+config/
 node_modules/
 package-lock.json
 .env
