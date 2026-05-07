@@ -1,11 +1,29 @@
-.clasp.json
-.clasprc.json
-config/
-node_modules/
-package-lock.json
-.env
-*.env
+# --- DATA & ASSET NODES (Managed by Rclone/GDrive) ---
+../01_receiving/
+../483_hardened_assets/
+../sol_savage_brain/
+../ledger/
+
+# --- SENSITIVE LEDGERS & DOCUMENTS ---
 *.csv
-*.json
-!appsscript.json
-!package.json
+*.xlsx
+*.pdf
+*.docx
+*.txt
+
+# --- SECURITY & SECRETS (Ghost Mode) ---
+.env
+*_vault
+*.key
+
+# --- MOBILE & SYSTEM JUNK ---
+.acode/
+__pycache__/
+*.py[cod]
+node_modules/
+
+# --- ACTIVE SHIELD PATCH ---
+*.env
+emcs_data.json
+.clasp.json
+appsscript.json

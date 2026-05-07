@@ -18,4 +18,3 @@ function doGet(e) {
 function doPost(e) {
   return doGet(e);
 }
-l
